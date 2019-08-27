@@ -2,6 +2,7 @@ import os
 import datetime
 
 # ustalenie obecnej daty i ścieżki do pliku
+
 today = datetime.date.today()
 diaryEntriesFolder = "Entries"
 portableDir = os.getcwd()
